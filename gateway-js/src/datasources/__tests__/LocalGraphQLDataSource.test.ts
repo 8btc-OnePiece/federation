@@ -1,5 +1,5 @@
 import { LocalGraphQLDataSource } from '../LocalGraphQLDataSource';
-import { buildFederatedSchema } from '@apollo/federation';
+import { buildFederatedSchema } from 'onepiece-federation';
 import gql from 'graphql-tag';
 
 describe('constructing requests', () => {

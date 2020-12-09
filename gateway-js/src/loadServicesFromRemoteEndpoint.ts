@@ -3,7 +3,7 @@ import { parse } from 'graphql';
 import { Headers, HeadersInit } from 'node-fetch';
 import { GraphQLDataSource } from './datasources/types';
 import { Experimental_UpdateServiceDefinitions, SERVICE_DEFINITION_QUERY } from './';
-import { ServiceDefinition } from '@apollo/federation';
+import { ServiceDefinition } from 'onepiece-federation';
 
 export async function getServiceDefinitionsFromRemoteEndpoint({
   serviceList,

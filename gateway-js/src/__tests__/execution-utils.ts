@@ -8,7 +8,7 @@ import {
   composeAndValidate,
   buildFederatedSchema,
   ServiceDefinition,
-} from '@apollo/federation';
+} from 'onepiece-federation';
 
 import {
   buildQueryPlan,

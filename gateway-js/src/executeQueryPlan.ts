@@ -11,7 +11,7 @@ import {
   GraphQLFieldResolver,
 } from 'graphql';
 import { Trace, google } from 'apollo-reporting-protobuf';
-import { defaultRootOperationNameLookup } from '@apollo/federation';
+import { defaultRootOperationNameLookup } from 'onepiece-federation';
 import { GraphQLDataSource } from './datasources/types';
 import {
   FetchNode,

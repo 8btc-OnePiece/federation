@@ -19,7 +19,7 @@ import {
   VariableDefinitionNode,
 } from 'graphql';
 import { GraphQLSchemaValidationError } from 'apollo-graphql';
-import { composeAndValidate, ServiceDefinition, ComposedGraphQLSchema } from '@apollo/federation';
+import { composeAndValidate, ServiceDefinition, ComposedGraphQLSchema } from 'onepiece-federation';
 import loglevel from 'loglevel';
 
 import { buildQueryPlan, buildOperationContext } from './buildQueryPlan';

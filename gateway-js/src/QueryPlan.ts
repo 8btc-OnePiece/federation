@@ -6,7 +6,7 @@ import {
 } from 'graphql';
 import prettyFormat from 'pretty-format';
 import { queryPlanSerializer, astSerializer } from './snapshotSerializers';
-import { ComposedGraphQLSchema } from '@apollo/federation';
+import { ComposedGraphQLSchema } from 'onepiece-federation';
 
 export type ResponsePath = (string | number)[];
 

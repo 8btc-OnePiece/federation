@@ -3,7 +3,7 @@ import gql from 'graphql-tag';
 import { buildQueryPlan, buildOperationContext } from '../buildQueryPlan';
 import { astSerializer, queryPlanSerializer } from '../snapshotSerializers';
 import { getFederatedTestingSchema } from './execution-utils';
-import { ComposedGraphQLSchema } from '@apollo/federation';
+import { ComposedGraphQLSchema } from 'onepiece-federation';
 import { WasmPointer } from '../QueryPlan';
 
 expect.addSnapshotSerializer(astSerializer);

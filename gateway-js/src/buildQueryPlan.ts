@@ -11,7 +11,7 @@ import {
   OperationContext,
   WasmPointer,
 } from './QueryPlan';
-import { ComposedGraphQLSchema } from '@apollo/federation';
+import { ComposedGraphQLSchema } from 'onepiece-federation';
 import { getQueryPlan } from '@apollo/query-planner-wasm';
 
 export interface BuildQueryPlanOptions {

@@ -25,7 +25,7 @@
     "access": "public"
   },
   "dependencies": {
-    "onepiece-federation": "~0.0.1",
+    "onepiece-federation": "0.0.1",
     "@apollo/query-planner-wasm": "0.0.8",
     "@types/node-fetch": "2.5.4",
     "apollo-graphql": "^0.6.0",

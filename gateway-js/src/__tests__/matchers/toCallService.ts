@@ -1,4 +1,4 @@
-import { QueryPlan } from '@apollo/gateway';
+import { QueryPlan } from 'onepiece-gateway';
 import { PlanNode } from '../../QueryPlan';
 import astSerializer from '../../snapshotSerializers/astSerializer';
 import queryPlanSerializer from '../../snapshotSerializers/queryPlanSerializer';

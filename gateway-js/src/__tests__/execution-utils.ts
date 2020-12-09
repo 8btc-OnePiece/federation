@@ -15,7 +15,7 @@ import {
   executeQueryPlan,
   QueryPlan,
   buildOperationContext,
-} from '@apollo/gateway';
+} from 'onepiece-gateway';
 import { LocalGraphQLDataSource } from '../datasources/LocalGraphQLDataSource';
 import { mergeDeep } from 'apollo-utilities';
 
